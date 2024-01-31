@@ -2,7 +2,7 @@ node_modules
 dist/
 *.js
 *.d.ts
-.next/
+.next
 .swc/
 .*.env
 node_modules
