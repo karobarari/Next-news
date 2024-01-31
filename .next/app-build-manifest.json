@@ -11,25 +11,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/prediction/[name]/page": [
+    "/articles/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/prediction/[name]/page.js"
+      "static/chunks/app/articles/page.js"
     ],
-    "/prediction/[name]/layout": [
+    "/articles/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/prediction/[name]/layout.js"
+      "static/chunks/app/articles/layout.js"
     ],
-    "/prediction/[name]/error": [
+    "/articles/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/prediction/[name]/error.js"
+      "static/chunks/app/articles/error.js"
     ],
-    "/prediction/[name]/loading": [
+    "/articles/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/prediction/[name]/loading.js"
+      "static/chunks/app/articles/loading.js"
     ]
   }
 }

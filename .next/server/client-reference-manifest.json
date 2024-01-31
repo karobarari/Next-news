@@ -48,17 +48,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/prediction/[name]/error.tsx": {
+    "(app-client)/./src/app/articles/error.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/prediction/[name]/error.tsx",
+        "id": "(sc_client)/./src/app/articles/error.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/prediction/[name]/loading.tsx": {
+    "(app-client)/./src/app/articles/loading.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/prediction/[name]/loading.tsx",
+        "id": "(sc_client)/./src/app/articles/loading.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -171,19 +171,19 @@
       ],
       "async": false
     },
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/prediction/[name]/error.tsx": {
-      "id": "(app-client)/./src/app/prediction/[name]/error.tsx",
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/error.tsx": {
+      "id": "(app-client)/./src/app/articles/error.tsx",
       "name": "*",
       "chunks": [
-        "app/prediction/[name]/error:static/chunks/app/prediction/[name]/error.js"
+        "app/articles/error:static/chunks/app/articles/error.js"
       ],
       "async": false
     },
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/prediction/[name]/loading.tsx": {
-      "id": "(app-client)/./src/app/prediction/[name]/loading.tsx",
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/loading.tsx": {
+      "id": "(app-client)/./src/app/articles/loading.tsx",
       "name": "*",
       "chunks": [
-        "app/prediction/[name]/loading:static/chunks/app/prediction/[name]/loading.js"
+        "app/articles/loading:static/chunks/app/articles/loading.js"
       ],
       "async": false
     }
@@ -193,9 +193,9 @@
     "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/prediction/[name]/page": [],
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/prediction/[name]/layout": [],
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/prediction/[name]/error": [],
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/prediction/[name]/loading": []
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/page": [],
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/layout": [],
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/error": [],
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/loading": []
   }
 }
