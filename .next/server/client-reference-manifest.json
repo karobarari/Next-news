@@ -147,14 +147,6 @@
       ],
       "async": false
     },
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/media/karo/Internal disk/Nextjs-project/Next-news/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
@@ -168,6 +160,14 @@
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -189,10 +189,10 @@
     }
   },
   "entryCSSFiles": {
-    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/page": [],
     "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/layout": [
       "static/css/app/layout.css"
     ],
+    "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/page": [],
     "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/page": [],
     "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/layout": [],
     "/media/karo/Internal disk/Nextjs-project/Next-news/src/app/articles/error": [],
