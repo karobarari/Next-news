@@ -1,8 +1,15 @@
-import { useEffect, useState } from "react";
-import { User } from "../types/types";
+"use client"
+import React, { useEffect, useState } from "react";
+import { User, UserContextType } from "../types/types";
+import { getUsers } from "./getUsers";
+import { useRouter } from "next/navigation";
+import { createContext } from "vm";
+export const UserContext = React.createContext<UserContextType | undefined>(undefined);
 
-export const UserProvider = () => {
-  const [user, setUser] = useState(() => {
+export const UserProvider = ({ children }: { children: React.ReactNode }) => {
+  const router = useRouter();
+
+  const [user, setUser] = useState<User | null>(() => {
     const storedUser = localStorage.getItem("user");
     return storedUser
       ? JSON.parse(storedUser)
@@ -22,13 +29,22 @@ export const UserProvider = () => {
     getUsers().then((res) => {
       setValidUsers(res);
     });
-    validUsers.map((validUser) => {
-      if (validUser.username === loginUsername) {
+    validUsers.map((validUser: User) => {
+      if (validUser?.username === loginUsername) {
         setUser(validUser);
         localStorage.setItem("user", JSON.stringify(validUser));
 
-        navigate("/articles");
+        router.push("/articles");
       }
     });
   }, [loginUsername]);
+  const logout = () => {
+    setUser(null);
+  };
+
+  return (
+    <UserContext.Provider value={{ user, login, logout }}>
+      {children}
+    </UserContext.Provider>
+  );
 };
