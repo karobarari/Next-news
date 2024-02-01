@@ -28,8 +28,8 @@ export default function Header() {
   return (
     <>
       <div className="flex flex-col bg-gradient-to-r from-blue-100 via-red-100 to-yellow-100 rounded-md w-full">
-        <h1>
-          <span className="flex justify-center shadow-md text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+        <h1 className="flex justify-center ">
+          <span className="basis-1/4 justify-center shadow-md text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             NC News
           </span>
         </h1>
@@ -49,7 +49,7 @@ export default function Header() {
                   Today's Date: {formattedDate}
                 </p>
                 <button
-                  className="flex justify-center text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-xs px-3 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                  className="flex justify-center items-center text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-xs px-3 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
                   onClick={handleBackToLogin}
                 >
                   Back to Login

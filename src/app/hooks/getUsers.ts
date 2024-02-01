@@ -4,7 +4,6 @@ export const getUsers = () => {
   return axios
     .get(`https://ncnews-yzwd.onrender.com/api/users`)
     .then((res) => {
-      console.log(res);
       return res.data.users;
     })
     .catch((err) => {

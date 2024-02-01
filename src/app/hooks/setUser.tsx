@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { User, UserContextType } from "../types/types";
 import { getUsers } from "./getUsers";
 import { useRouter } from "next/navigation";
-import { createContext } from "vm";
 export const UserContext = React.createContext<UserContextType | undefined>(undefined);
 
 export const UserProvider = ({ children }: { children: React.ReactNode }) => {

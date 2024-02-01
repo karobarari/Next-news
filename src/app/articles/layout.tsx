@@ -1,5 +1,3 @@
-import Header from "@/app/header";
-
 export default function articlesLayout({
   children,
 }: {
